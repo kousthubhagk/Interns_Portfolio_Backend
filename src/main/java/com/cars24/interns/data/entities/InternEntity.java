@@ -11,6 +11,7 @@ import java.util.List;
 
 @Data
 @Document(collection = "intern")
+
 @AllArgsConstructor
 @NoArgsConstructor
 public class InternEntity {
