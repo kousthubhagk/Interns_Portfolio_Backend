@@ -20,9 +20,9 @@ public class EducationEntity {
     private String institution;
 
 //    private String duration; // Using String to represent the range (e.g., "2021 to 2025")
-    private Year startYear;
+    private String startYear;
 
-    private Year endYear;
+    private String endYear;
 
     private Float cgpa; // float for CGPA, with validation
 
@@ -42,19 +42,19 @@ public class EducationEntity {
         this.institution = institution;
     }
 
-    public Year getStartYear() {
+    public String getStartYear() {
         return startYear;
     }
 
-    public void setStartYear(Year startYear) {
+    public void setStartYear(String startYear) {
         this.startYear = startYear;
     }
 
-    public Year getEndYear() {
+    public String getEndYear() {
         return endYear;
     }
 
-    public void setEndYear(Year endYear) {
+    public void setEndYear(String endYear) {
         this.endYear = endYear;
     }
 
